@@ -1,0 +1,133 @@
+  
+  
+  .datos {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+     color: #fff;
+  }
+  
+  .contendido {
+    max-width: 40rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  
+ .datos .videoContainer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+
+  }
+  .datos .videoContainer video{
+    min-width: 100%;
+    min-height: 100%;
+
+  }
+  .trabajosg{
+    margin-bottom: 10px;
+  }
+  
+
+
+  .popBefore {
+    z-index: 2;
+    
+  }
+
+.datosgif{
+
+  width: 100%;
+  margin-bottom: 200px;
+
+}
+.datosgif h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+.gallery{
+  width: 90%;
+  margin: auto;
+
+}
+
+  .datosgif span{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+  }
+  .datosgif p{
+    font-size: 25px;
+    margin-top: 20px;
+
+  }
+
+  .popBefore button {
+   border: 3px solid #fff;
+background-color: transparent;
+    font-size: 4rem;
+    color: #fff;
+    padding:0 40px  ;
+  
+    
+    text-decoration: none;
+    border-radius: 12px;
+    
+
+  }
+
+  .popBefore a:hover{
+    color: #fff;
+    background-color: orangered;
+  }
+  .item{
+    transition: .5s ease-in-out;
+  }
+  .item:hover{
+    filter: brightness(80%);
+  }
+  .videoM{
+    margin-top: 10%;
+
+  }
+  .datosW{
+    margin: 140px 0;
+  }
+  @media (max-width: 960px ) and (min-width: 600px ) {
+    .contenido {
+      padding: 0 3rem 0 3rem;
+    }  .videoM{
+      margin-top: 50%;
+  
+    }
+  
+  }
+
+ 
+@media (max-width:600px) {
+  .contendido{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-left: 0rem;
+  padding-right: 0rem;
+  }
+  .videoContainer{
+    width: 100%;
+  }
+
+  .gallery{
+    width: 100%;
+  }
+  .videoM{
+    margin-top: 90%;
+  }
+}
